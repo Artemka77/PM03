@@ -20,5 +20,61 @@ public class App : IComparable
         return string.Format("Имя: {0}  Производитель: {1} Цена: {2}", name, manufacturer, price);
     }
 
+    public int CompareTo(object o)
+    {
+        App c = o as App;
+        if (c != null)
+        {
+            int result = name.CompareTo(c.name);
+            if (result != 0)
+            {
+                return result;
+            }
+            return price.CompareTo(c.price);
+        }
+        else
+        {
+            throw new Exception("Невозможно сравнить два объекта");
+        }
+    }
+
 }
 
+public class Applications
+{
+    int cntApss;
+    public App[] Apss;
+
+    public Applications(int cntApss)
+    {
+        this.cntApss = cntApss;
+        Apss = new App[cntApss];
+    }
+
+    public void Fill()
+    {
+        string name;
+        string manufacturer;
+        int price;
+        try
+        {
+            for (int i = 0; i < this.cntApss; i++)
+            {
+                Console.WriteLine("Наименование:");
+                name = Console.ReadLine();
+                Console.WriteLine("Производитель:");
+                manufacturer = Console.ReadLine();
+                Console.WriteLine("Стоимость:");
+                price = Convert.ToInt32(Console.ReadLine());
+                this.Apss[i] = new App(name, manufacturer, price);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Неверные данные");
+            Environment.Exit(0);
+        }
+
+    }
+
+}
