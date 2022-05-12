@@ -74,7 +74,44 @@ public class Applications
             Console.WriteLine("Неверные данные");
             Environment.Exit(0);
         }
-
+        
     }
 
+    public void Sort()
+    {
+        Array.Sort(this.Apss);
+    }
+
+    public void PrintToFile()
+    {
+        using (StreamWriter file = new StreamWriter("result.txt", false, Encoding.UTF8))
+        {
+            foreach (App c in this.Apss)
+            {
+                file.WriteLine(c.ToString());
+            }
+        }
+    }
 }
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Количество программ:");
+        int cntApss = Convert.ToInt32(Console.ReadLine());
+        if (cntAppss < 1)
+        {
+            Console.WriteLine("Неверные данные");
+            Environment.Exit(0);
+        }
+        else
+        {
+            Applications Applications = new Applications(cntApss);
+            Applications.Fill();
+            Applications.Sort();
+            Applications.PrintToFile();
+        }
+    }
+}
+
