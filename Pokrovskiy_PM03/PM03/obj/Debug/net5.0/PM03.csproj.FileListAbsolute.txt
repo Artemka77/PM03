@@ -1,0 +1,16 @@
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.exe
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.deps.json
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.runtimeconfig.json
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.runtimeconfig.dev.json
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.dll
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\ref\PM03.dll
+C:\Users\DedMo\source\repos\PM03\bin\Debug\net5.0\PM03.pdb
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.csproj.AssemblyReference.cache
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.AssemblyInfoInputs.cache
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.AssemblyInfo.cs
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.csproj.CoreCompileInputs.cache
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.dll
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\ref\PM03.dll
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.pdb
+C:\Users\DedMo\source\repos\PM03\obj\Debug\net5.0\PM03.genruntimeconfig.cache
