@@ -84,7 +84,7 @@ public class Applications
 
     public void PrintToFile()
     {
-        using (StreamWriter file = new StreamWriter("result.txt", false, Encoding.UTF8))
+        using (StreamWriter file = new StreamWriter("результат.txt", false, Encoding.UTF8))
         {
             foreach (App c in this.Apss)
             {
